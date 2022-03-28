@@ -1,0 +1,15 @@
+- clean: ['~']
+
+- defaults:
+    link:
+      create: true
+      force: true
+
+- link:
+    ~/Library/Application Support/Code/User/settings.json: editors/vs-code/settings.json
+    ~/Library/Application Support/Code/User/keybindings.json: editors/vs-code/keybindings.json
+    ~/Library/Application Support/Rocket/rocket.db: mac/rocket/rocket.db
+    ~/.config/karabiner: mac/karabiner-elements
+
+- create:
+    - ~/.hushlogin
