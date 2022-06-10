@@ -1,6 +1,7 @@
+#!.gitconfig para SO Windows
 [user]
-	name = Josue Romero
-	email = tucorreo@gmail.com
+	name = 
+	email = 
 
 [fetch]
 	prune = true
