@@ -1,0 +1,4 @@
+#!.gitattributes configuración primordial
+*.json diff=json
+*.png diff=exif
+*.jpg diff=exif
