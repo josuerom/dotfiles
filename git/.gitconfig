@@ -1,23 +1,18 @@
 #!.gitconfig para SO Windows
 [user]
-	name = 
-	email = 
-
+	name = Josué Romero
+	email = krgtdfo@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim --wait
+	autocrlf = true
 [fetch]
 	prune = true
-
 [push]
 	default = simple
-
 [color]
 	diff = auto
 	status = auto
 	branch = auto
 	ui = true
-
-s[init]
-	defauldBranch = main
-
-[core]
-	editor = nvim
-	autocrltf = true
